@@ -22,7 +22,7 @@ class CalculatorComplex{
 
 	  $re=($x*$y-$this->Imag($xImag)*$this->Imag($yImag))/25;
 
-	  $im = $this->Imag($xImag)*$y-$x*$this->Imag($xImag)/25;
+	  $im = ($this->Imag($xImag)*$y-$x*$this->Imag($xImag))/25;
 
 	  if($im>0){
 
